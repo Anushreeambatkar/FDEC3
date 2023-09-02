@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeCapacityReservations",
+                "ec2:DescribeCapacityReservationFleets",
+                "ec2:DescribeAddresses",
+                "ec2:DescribeAggregateIdFormat",
+                "ec2:DescribeBundleTasks",
+                "ec2:DescribeClassicLinkInstances",
+                "ec2:DescribeByoipCidrs",
+                "ec2:DescribeAddressesAttribute",
+                "ec2:DescribeAddressTransfers",
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeClientVpnAuthorizationRules",
+                "ec2:DescribeAccountAttributes",
+                "ec2:DescribeAwsNetworkPerformanceMetricSubscriptions"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

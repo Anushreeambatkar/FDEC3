@@ -1,0 +1,22 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:ExportClientVpnClientCertificateRevocationList",
+                "ec2:GetAssociatedIpv6PoolCidrs",
+                "ec2:GetCoipPoolUsage",
+                "ec2:GetEbsEncryptionByDefault",
+                "ec2:ExportClientVpnClientConfiguration",
+                "ec2:GetCapacityReservationUsage",
+                "ec2:GetAwsNetworkPerformanceData",
+                "ec2:GetConsoleScreenshot",
+                "ec2:GetAssociatedEnclaveCertificateIamRoles",
+                "ec2:GetConsoleOutput"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
