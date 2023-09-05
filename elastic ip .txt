@@ -1,0 +1,24 @@
+
+   Elastic ip 
+   
+we use this for making our instance ip constand means it will not change if we stop/reboot the instance 
+
+steps to create 
+
+  launch instance (design as per require )
+  network & security 
+  elastic IPs
+  allocate elastic IP address
+  allocate(default setting)
+  action 
+  allocate elasticip address
+  select instance name/ip
+  check allocate id (instance id)
+  check ip address
+  
+ Demostration
+   
+   reboot instance 
+   and start again
+   change ip 
+it will be same because of elastic ip   
